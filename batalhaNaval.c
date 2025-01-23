@@ -27,8 +27,10 @@ int main() {
     // UM LOOP (REPETIÇÃO) PARA EXIBIR CADA POSIÇÃO DA MATRIZ E REVELANDO A POSIÇÃO DOS NAVIOS NA TELA DO USUÁRIO
     for (posicao_linha = 0; posicao_linha < linha; posicao_linha++) {
         for (posicao_coluna = 0; posicao_coluna < coluna; posicao_coluna++){
+            // PRINTA CADA POSIÇÃO RECEBIDA DA MATRIZ
             printf("| %d ", tabuleiro[posicao_linha][posicao_coluna]);
         }
+        // APENAS PARA FUNÇÃO ESTÉTICA
         printf("|");
         printf("\n");
     }
